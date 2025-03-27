@@ -1,4 +1,4 @@
-import { createElement } from "../render";
+import { createElement } from '../render';
 
 function createPointTemplate() {
   return (
@@ -39,7 +39,7 @@ function createPointTemplate() {
       </button>
     </div>
   </li>`
-  )
+  );
 }
 
 export default class PointView {

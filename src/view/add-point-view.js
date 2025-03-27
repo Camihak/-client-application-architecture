@@ -1,4 +1,4 @@
-import { createElement } from "../render.js";
+import { createElement } from '../render.js';
 
 function createAddPointView() {
   return (`
@@ -164,7 +164,7 @@ function createAddPointView() {
       </section>
     </form>
   </li>
-  `)
+  `);
 }
 
 export default class AddPointView {
